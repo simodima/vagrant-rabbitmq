@@ -2,12 +2,12 @@
 
 ## About
 
-This box contains a puppet recipes that install RabbitMq and RabbitMq Web Management
+This box contains a vagrant / puppet recipe that allows you to create a develop environment with RabbitMq and RabbitMq Web Management
 
 ## Install
 
-* Download and install [Vagrant]
-* Download and install [VirtualBox]
+* Download and install [Vagrant](http://downloads.vagrantup.com/)
+* Download and install  [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * Clone the project ```git clone --recursive git@github.com:toretto460/vagrant-rabbitmq.git```
 * In the project dir run ```vagrant up```
 
@@ -33,6 +33,5 @@ password: guest
 * destroy box: ```vagrant destroy```
 
 ## Links: 
-
-[Vagrant]: http://downloads.vagrantup.com/
-[VirtualBox]: https://www.virtualbox.org/wiki/Downloads
+-  [Vagrant](http://downloads.vagrantup.com/)
+-  [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
